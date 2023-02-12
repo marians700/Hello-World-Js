@@ -13,9 +13,6 @@ RUN yarn install
 # Copy the rest of the application code to the container
 COPY . .
 
-# Build the Next.js app
-RUN yarn build
-
 # Set the environment to production
 ENV NODE_ENV production
 
