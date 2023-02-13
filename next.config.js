@@ -14,3 +14,8 @@ module.exports = {
     ignoreBuildErrors: true,
   },
 }
+  staticPageGenerationTimeout: 240,
+
+  experimental: {
+    esmExternals: false,
+  }
